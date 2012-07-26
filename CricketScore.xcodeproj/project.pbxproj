@@ -100,22 +100,20 @@
 		9F904B5F15C17F220013C020 /* CricketScore */ = {
 			isa = PBXGroup;
 			children = (
+				9F904B6815C17F220013C020 /* CricketScoreAppDelegate.h */,
+				BD9D154C15C18BB500FF019E /* Images */,
+				9F904B6915C17F220013C020 /* CricketScoreAppDelegate.m */,
+				BD9D154B15C18B6E00FF019E /* View Controllers */,
 				BD9D154115C189BE00FF019E /* CricketScoreThirdViewController.h */,
 				BD9D154215C189BE00FF019E /* CricketScoreThirdViewController.m */,
 				BD9D154615C18ADC00FF019E /* CricketScoreFourthViewController.h */,
 				BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */,
 				BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */,
 				BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */,
-				9F904B6815C17F220013C020 /* CricketScoreAppDelegate.h */,
-				9F904B6915C17F220013C020 /* CricketScoreAppDelegate.m */,
 				9F904B6B15C17F220013C020 /* CricketScoreFirstViewController.h */,
 				9F904B6C15C17F220013C020 /* CricketScoreFirstViewController.m */,
-				9F904B6E15C17F220013C020 /* first.png */,
-				9F904B7015C17F220013C020 /* first@2x.png */,
 				9F904B7215C17F220013C020 /* CricketScoreSecondViewController.h */,
 				9F904B7315C17F220013C020 /* CricketScoreSecondViewController.m */,
-				9F904B7515C17F220013C020 /* second.png */,
-				9F904B7715C17F220013C020 /* second@2x.png */,
 				9F904B7915C17F220013C020 /* CricketScoreFirstViewController.xib */,
 				9F904B7C15C17F220013C020 /* CricketScoreSecondViewController.xib */,
 				9F904B6015C17F220013C020 /* Supporting Files */,
@@ -132,6 +130,24 @@
 				9F904B6715C17F220013C020 /* CricketScore-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD9D154B15C18B6E00FF019E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BD9D154C15C18BB500FF019E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9F904B6E15C17F220013C020 /* first.png */,
+				9F904B7015C17F220013C020 /* first@2x.png */,
+				9F904B7515C17F220013C020 /* second.png */,
+				9F904B7715C17F220013C020 /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -21,6 +21,10 @@
 		9F904B7815C17F220013C020 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F904B7715C17F220013C020 /* second@2x.png */; };
 		9F904B7B15C17F220013C020 /* CricketScoreFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F904B7915C17F220013C020 /* CricketScoreFirstViewController.xib */; };
 		9F904B7E15C17F220013C020 /* CricketScoreSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F904B7C15C17F220013C020 /* CricketScoreSecondViewController.xib */; };
+		BD9D154415C189BE00FF019E /* CricketScoreThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D154215C189BE00FF019E /* CricketScoreThirdViewController.m */; };
+		BD9D154515C189BE00FF019E /* CricketScoreThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */; };
+		BD9D154915C18ADC00FF019E /* CricketScoreFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */; };
+		BD9D154A15C18ADC00FF019E /* CricketScoreFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,12 @@
 		9F904B7715C17F220013C020 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		9F904B7A15C17F220013C020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CricketScoreFirstViewController.xib; sourceTree = "<group>"; };
 		9F904B7D15C17F220013C020 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CricketScoreSecondViewController.xib; sourceTree = "<group>"; };
+		BD9D154115C189BE00FF019E /* CricketScoreThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketScoreThirdViewController.h; sourceTree = "<group>"; };
+		BD9D154215C189BE00FF019E /* CricketScoreThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketScoreThirdViewController.m; sourceTree = "<group>"; };
+		BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CricketScoreThirdViewController.xib; sourceTree = "<group>"; };
+		BD9D154615C18ADC00FF019E /* CricketScoreFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketScoreFourthViewController.h; sourceTree = "<group>"; };
+		BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketScoreFourthViewController.m; sourceTree = "<group>"; };
+		BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CricketScoreFourthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,12 @@
 		9F904B5F15C17F220013C020 /* CricketScore */ = {
 			isa = PBXGroup;
 			children = (
+				BD9D154115C189BE00FF019E /* CricketScoreThirdViewController.h */,
+				BD9D154215C189BE00FF019E /* CricketScoreThirdViewController.m */,
+				BD9D154615C18ADC00FF019E /* CricketScoreFourthViewController.h */,
+				BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */,
+				BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */,
+				BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */,
 				9F904B6815C17F220013C020 /* CricketScoreAppDelegate.h */,
 				9F904B6915C17F220013C020 /* CricketScoreAppDelegate.m */,
 				9F904B6B15C17F220013C020 /* CricketScoreFirstViewController.h */,
@@ -177,6 +193,8 @@
 				9F904B7815C17F220013C020 /* second@2x.png in Resources */,
 				9F904B7B15C17F220013C020 /* CricketScoreFirstViewController.xib in Resources */,
 				9F904B7E15C17F220013C020 /* CricketScoreSecondViewController.xib in Resources */,
+				BD9D154515C189BE00FF019E /* CricketScoreThirdViewController.xib in Resources */,
+				BD9D154A15C18ADC00FF019E /* CricketScoreFourthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +209,8 @@
 				9F904B6A15C17F220013C020 /* CricketScoreAppDelegate.m in Sources */,
 				9F904B6D15C17F220013C020 /* CricketScoreFirstViewController.m in Sources */,
 				9F904B7415C17F220013C020 /* CricketScoreSecondViewController.m in Sources */,
+				BD9D154415C189BE00FF019E /* CricketScoreThirdViewController.m in Sources */,
+				BD9D154915C18ADC00FF019E /* CricketScoreFourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +330,7 @@
 				9F904B8315C17F220013C020 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

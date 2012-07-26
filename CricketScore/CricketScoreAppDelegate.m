@@ -12,6 +12,10 @@
 
 #import "CricketScoreSecondViewController.h"
 
+#import "CricketScoreThirdViewController.h"
+
+#import "CricketScoreFourthViewController.h"
+
 @implementation CricketScoreAppDelegate
 
 @synthesize window = _window;
@@ -23,8 +27,10 @@
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[CricketScoreFirstViewController alloc] initWithNibName:@"CricketScoreFirstViewController" bundle:nil];
     UIViewController *viewController2 = [[CricketScoreSecondViewController alloc] initWithNibName:@"CricketScoreSecondViewController" bundle:nil];
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+	UIViewController *viewController3 = [[CricketScoreThirdViewController alloc] initWithNibName:@"CricketScoreThirdViewController" bundle:nil];
+	UIViewController *viewController4 = [[CricketScoreFourthViewController alloc] initWithNibName:@"CricketScoreFourthViewController" bundle:nil];
+	self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, viewController3, viewController4, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;

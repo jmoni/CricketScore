@@ -9,10 +9,18 @@
 #import "CricketScoreSecondViewController.h"
 
 @interface CricketScoreSecondViewController ()
+@property (strong, nonatomic) IBOutlet UIButton *homeWonToss;
+@property (strong, nonatomic) IBOutlet UIButton *awayWonToss;
+@property (strong, nonatomic) IBOutlet UIButton *battingButton;
+@property (strong, nonatomic) IBOutlet UIButton *fieldingButton;
 
 @end
 
 @implementation CricketScoreSecondViewController
+@synthesize homeWonToss;
+@synthesize awayWonToss;
+@synthesize battingButton;
+@synthesize fieldingButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,15 +31,52 @@
     }
     return self;
 }
+
+- (void)tossButtonManage
+{
+    if (homeWonToss.selected)
+	{
+        [homeWonToss setSelected:NO];
+		[awayWonToss setSelected:YES];
+    }
+    else
+	{
+        [homeWonToss setSelected:YES];
+		[awayWonToss setSelected:NO];
+    }
+}
+
+- (void)decisionButtonManage
+{
+    if (battingButton.selected)
+	{
+        [battingButton setSelected:NO];
+		[fieldingButton setSelected:YES];
+    }
+    else
+	{
+        [battingButton setSelected:YES];
+		[fieldingButton setSelected:NO];
+    }
+	
+}
 							
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	[homeWonToss addTarget:self action:@selector(tossButtonManage) forControlEvents:UIControlEventTouchUpInside];
+	[awayWonToss addTarget:self action:@selector(tossButtonManage) forControlEvents:UIControlEventTouchUpInside];
+	[battingButton addTarget:self action:@selector(decisionButtonManage) forControlEvents:UIControlEventTouchUpInside];
+	[fieldingButton addTarget:self action:@selector(decisionButtonManage) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)viewDidUnload
 {
+	[self setHomeWonToss:nil];
+	[self setAwayWonToss:nil];
+	[self setBattingButton:nil];
+	[self setFieldingButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

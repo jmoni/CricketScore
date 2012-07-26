@@ -25,6 +25,14 @@
 		BD9D154515C189BE00FF019E /* CricketScoreThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */; };
 		BD9D154915C18ADC00FF019E /* CricketScoreFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */; };
 		BD9D154A15C18ADC00FF019E /* CricketScoreFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */; };
+		BDC7717C15C1CF7C004D549F /* awayWinner.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7717A15C1CF7C004D549F /* awayWinner.png */; };
+		BDC7717D15C1CF7C004D549F /* homeWinner.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7717B15C1CF7C004D549F /* homeWinner.png */; };
+		BDC7718015C1D095004D549F /* awayLoser.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7717E15C1D095004D549F /* awayLoser.png */; };
+		BDC7718115C1D095004D549F /* homeLoser.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7717F15C1D095004D549F /* homeLoser.png */; };
+		BDC7718615C1D1E3004D549F /* battingSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7718215C1D1E3004D549F /* battingSelected.png */; };
+		BDC7718715C1D1E3004D549F /* battingUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7718315C1D1E3004D549F /* battingUnselected.png */; };
+		BDC7718815C1D1E3004D549F /* fieldingSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7718415C1D1E3004D549F /* fieldingSelected.png */; };
+		BDC7718915C1D1E3004D549F /* fieldingUnselected.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC7718515C1D1E3004D549F /* fieldingUnselected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +62,14 @@
 		BD9D154615C18ADC00FF019E /* CricketScoreFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketScoreFourthViewController.h; sourceTree = "<group>"; };
 		BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketScoreFourthViewController.m; sourceTree = "<group>"; };
 		BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CricketScoreFourthViewController.xib; sourceTree = "<group>"; };
+		BDC7717A15C1CF7C004D549F /* awayWinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awayWinner.png; sourceTree = "<group>"; };
+		BDC7717B15C1CF7C004D549F /* homeWinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeWinner.png; sourceTree = "<group>"; };
+		BDC7717E15C1D095004D549F /* awayLoser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awayLoser.png; sourceTree = "<group>"; };
+		BDC7717F15C1D095004D549F /* homeLoser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeLoser.png; sourceTree = "<group>"; };
+		BDC7718215C1D1E3004D549F /* battingSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battingSelected.png; sourceTree = "<group>"; };
+		BDC7718315C1D1E3004D549F /* battingUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battingUnselected.png; sourceTree = "<group>"; };
+		BDC7718415C1D1E3004D549F /* fieldingSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fieldingSelected.png; sourceTree = "<group>"; };
+		BDC7718515C1D1E3004D549F /* fieldingUnselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fieldingUnselected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +116,7 @@
 		9F904B5F15C17F220013C020 /* CricketScore */ = {
 			isa = PBXGroup;
 			children = (
+				BDC7716E15C1B8D6004D549F /* Resources */,
 				9F904B6815C17F220013C020 /* CricketScoreAppDelegate.h */,
 				9F904B6915C17F220013C020 /* CricketScoreAppDelegate.m */,
 				BD9D154C15C18BB500FF019E /* Images */,
@@ -123,18 +140,14 @@
 		BD9D154B15C18B6E00FF019E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BD9D154115C189BE00FF019E /* CricketScoreThirdViewController.h */,
-				BD9D154215C189BE00FF019E /* CricketScoreThirdViewController.m */,
-				BD9D154615C18ADC00FF019E /* CricketScoreFourthViewController.h */,
-				BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */,
-				BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */,
-				BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */,
 				9F904B6B15C17F220013C020 /* CricketScoreFirstViewController.h */,
 				9F904B6C15C17F220013C020 /* CricketScoreFirstViewController.m */,
 				9F904B7215C17F220013C020 /* CricketScoreSecondViewController.h */,
 				9F904B7315C17F220013C020 /* CricketScoreSecondViewController.m */,
-				9F904B7915C17F220013C020 /* CricketScoreFirstViewController.xib */,
-				9F904B7C15C17F220013C020 /* CricketScoreSecondViewController.xib */,
+				BD9D154115C189BE00FF019E /* CricketScoreThirdViewController.h */,
+				BD9D154215C189BE00FF019E /* CricketScoreThirdViewController.m */,
+				BD9D154615C18ADC00FF019E /* CricketScoreFourthViewController.h */,
+				BD9D154715C18ADC00FF019E /* CricketScoreFourthViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -142,12 +155,31 @@
 		BD9D154C15C18BB500FF019E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BDC7718215C1D1E3004D549F /* battingSelected.png */,
+				BDC7718315C1D1E3004D549F /* battingUnselected.png */,
+				BDC7718415C1D1E3004D549F /* fieldingSelected.png */,
+				BDC7718515C1D1E3004D549F /* fieldingUnselected.png */,
+				BDC7717E15C1D095004D549F /* awayLoser.png */,
+				BDC7717F15C1D095004D549F /* homeLoser.png */,
+				BDC7717A15C1CF7C004D549F /* awayWinner.png */,
+				BDC7717B15C1CF7C004D549F /* homeWinner.png */,
 				9F904B6E15C17F220013C020 /* first.png */,
 				9F904B7015C17F220013C020 /* first@2x.png */,
 				9F904B7515C17F220013C020 /* second.png */,
 				9F904B7715C17F220013C020 /* second@2x.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		BDC7716E15C1B8D6004D549F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F904B7915C17F220013C020 /* CricketScoreFirstViewController.xib */,
+				9F904B7C15C17F220013C020 /* CricketScoreSecondViewController.xib */,
+				BD9D154315C189BE00FF019E /* CricketScoreThirdViewController.xib */,
+				BD9D154815C18ADC00FF019E /* CricketScoreFourthViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +243,14 @@
 				9F904B7E15C17F220013C020 /* CricketScoreSecondViewController.xib in Resources */,
 				BD9D154515C189BE00FF019E /* CricketScoreThirdViewController.xib in Resources */,
 				BD9D154A15C18ADC00FF019E /* CricketScoreFourthViewController.xib in Resources */,
+				BDC7717C15C1CF7C004D549F /* awayWinner.png in Resources */,
+				BDC7717D15C1CF7C004D549F /* homeWinner.png in Resources */,
+				BDC7718015C1D095004D549F /* awayLoser.png in Resources */,
+				BDC7718115C1D095004D549F /* homeLoser.png in Resources */,
+				BDC7718615C1D1E3004D549F /* battingSelected.png in Resources */,
+				BDC7718715C1D1E3004D549F /* battingUnselected.png in Resources */,
+				BDC7718815C1D1E3004D549F /* fieldingSelected.png in Resources */,
+				BDC7718915C1D1E3004D549F /* fieldingUnselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

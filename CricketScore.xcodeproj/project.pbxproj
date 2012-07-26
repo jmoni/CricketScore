@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				9F904B6815C17F220013C020 /* CricketScoreAppDelegate.h */,
-				BD9D154C15C18BB500FF019E /* Images */,
 				9F904B6915C17F220013C020 /* CricketScoreAppDelegate.m */,
+				BD9D154C15C18BB500FF019E /* Images */,
 				BD9D154B15C18B6E00FF019E /* View Controllers */,
 				9F904B6015C17F220013C020 /* Supporting Files */,
 			);
